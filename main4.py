@@ -48,8 +48,6 @@ def make_img(r, g, b, nr, ng, nb):
     image.show()
 
 
-darken("#2FABCD", 20)
-lighten("#2FABCD", 20)
 while True:
     print("[0] - закрыть программу\n[1] - сделать светлее\n[2] - сделать темнее")
     answer = input("Введите действие: ")
