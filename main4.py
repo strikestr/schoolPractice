@@ -2,6 +2,26 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 def lighten(color: str, percent: int) -> str:
+    """_lighten_ - делает полученный цвет светлее на percent
+
+    Описание:
+        Получает на входе HEX Код в string форме.
+        Далее конвертирует данный код в RGB и по формуле, получаем ответ.
+
+    Формула:
+        Нужно сделать для каждого цвета, то есть 3-ех. Для примера берем красный:
+        min(255, red + (255 - red) * percent // 100)
+
+    Аргументы:
+        color (str): HEX код
+        percent (int): Процент
+
+    Пример:
+        lighten("2FECAB", 20)
+
+    Исключения:
+        Неверные данные - это означает, что вы ввели недопустимые значения
+    """
     color = color.lstrip("#")
 
     red = int(color[0:2], 16)
@@ -16,6 +36,26 @@ def lighten(color: str, percent: int) -> str:
 
 
 def darken(color: str, percent: int) -> str:
+    """_darken_ - делает полученный цвет темнее на percent
+
+    Описание:
+        Получает на входе HEX Код в string форме.
+        Далее конвертирует данный код в RGB и по формуле, получаем ответ.
+
+    Формула:
+        Нужно сделать для каждого цвета, то есть 3-ех. Для примера берем красный:
+        max(0, red - red * percent // 100)
+
+    Аргументы:
+        color (str): HEX код
+        percent (int): Процент
+
+    Пример:
+        darken("2FECAB", 20)
+
+    Исключения:
+        Неверные данные - это означает, что вы ввели недопустимые значения
+    """
     color = color.lstrip("#")
 
     red = int(color[0:2], 16)
