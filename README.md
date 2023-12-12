@@ -32,6 +32,8 @@
 2. Полученный ответ
 <img width="707" alt="image" src="https://github.com/strikestr/schoolPractice/assets/68343771/bc4cbd87-3df3-4722-a5a5-f5f0296fc693">
 
+
+
 ### Запуск и настройка проекта
 1. Склонировать проект
 2. Обновить pip:
@@ -46,4 +48,7 @@
    ```bash
    python main.py
    ```
+5. [x] Готово
+
+
     
