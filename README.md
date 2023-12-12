@@ -1,4 +1,4 @@
-# schoolPractice
+# _schoolPractice_
 
 ### Функционал
 - Функция lighten(сolor, percent):
