@@ -1,4 +1,4 @@
-# _schoolPractice_
+<a href="https://e.sfu-kras.ru/mod/assign/view.php?id=1516444"># _schoolPractice_</a>
 
 ### Функционал
 - Функция lighten(сolor, percent):
