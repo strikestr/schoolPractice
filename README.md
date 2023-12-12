@@ -1,4 +1,4 @@
-[# _schoolPractice_](https://e.sfu-kras.ru/mod/assign/view.php?id=1516444)
+# _schoolPractice_
 ### Функционал
 - Функция lighten(сolor, percent):
   Делает полученный цвет светлее.
@@ -49,5 +49,7 @@
    ```
 5. [x] Готово
 
+### Ссылки
+[Ссылка на задание](https://e.sfu-kras.ru/mod/assign/view.php?id=1516444)
 
     
