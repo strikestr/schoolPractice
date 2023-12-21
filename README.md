@@ -1,6 +1,7 @@
-# _schoolPractice_
+# *schoolPractice*
 
 ### Функционал
+
 ## Функция lighten(сolor, percent):
   Делает полученный цвет светлее.
   - Получаемые данные:
@@ -12,7 +13,7 @@
     ngreen = min(255, green + (255 - green) * percent // 100)
     nblue = min(255, blue + (255 - blue) * percent // 100)
     ```
-    
+
 ## Функция darken(сolor, percent):
   Делает полученный цвет темнее.
   - Получаемые данные:
