@@ -1,4 +1,5 @@
 # _schoolPractice_
+
 ### Функционал
 - Функция lighten(сolor, percent):
   Делает полученный цвет светлее.
