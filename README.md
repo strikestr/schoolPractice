@@ -2,7 +2,7 @@
 
 ## Функционал
 
-### Функция lighten(сolor, percent):
+## Функция lighten(сolor, percent):
   *Делает полученный цвет светлее.*
   - Получаемые данные:
     - color: str (#xxxxxx)
@@ -14,7 +14,7 @@
     nblue = min(255, blue + (255 - blue) * percent // 100)
     ```
 
-### Функция darken(сolor, percent):
+## Функция darken(сolor, percent):
   *Делает полученный цвет темнее.*
   - Получаемые данные:
     - color: str (#xxxxxx)
@@ -26,7 +26,7 @@
     nblue = max(0, blue - blue * percent // 100)
     ```
   
-### Пример использования
+## Пример использования
 1. Вводим значения
 <img width="361" alt="image" src="https://github.com/strikestr/schoolPractice/assets/68343771/fbd333d1-dfb6-4239-a203-0dba8e38c683">
    
@@ -35,7 +35,7 @@
 
 
 
-### Запуск и настройка проекта
+## Запуск и настройка проекта
 1. Склонировать проект
 2. Обновить pip:
    ```bash
@@ -51,7 +51,7 @@
    ```
 5. [x] Готово
 
-### Ссылки
+## Ссылки
 [Ссылка на задание](https://e.sfu-kras.ru/mod/assign/view.php?id=1516444)
 
     
