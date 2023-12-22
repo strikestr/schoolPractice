@@ -2,7 +2,7 @@
 
 ## Функционал
 
-## Функция lighten(сolor, percent):
+# Функция lighten(сolor, percent):
   *Делает полученный цвет светлее.*
   - Получаемые данные:
     - color: str (#xxxxxx)
@@ -14,7 +14,7 @@
     nblue = min(255, blue + (255 - blue) * percent // 100)
     ```
 
-## Функция darken(сolor, percent):
+# Функция darken(сolor, percent):
   *Делает полученный цвет темнее.*
   - Получаемые данные:
     - color: str (#xxxxxx)
